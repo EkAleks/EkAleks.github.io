@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Дизайн-студия "Нёрдс"</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body class="inner-page">
+  <header class="main-header">
+    <div class="container clearfix">
+      <div class="logo">
+        <a href="index.html"><img src="img/logo-head.png" width="139" height="56" alt="Nerd's">
+        </a>
+      </div>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="index.html">СТУДИЯ</a>
+          </li><!--
+          --><li><a href="#">КЛИЕНТЫ</a>
+          </li><!--
+          --><li class="active"><a href="catalog.html">МАГАЗИН</a>
+          </li><!--
+          --><li><a href="#">КОНТАКТЫ</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="basket">
+        <a href="#"><i class="fa fa-shopping-cart"></i>КОРЗИНА</a>
+      </div>
+    </div>
+  </header>
+  <section class="welcome">
+    <div class="container">
+      <h1>Добро пожаловать в магазин<br/>
+		  готовых макетов</h1>
+    </div>
+  </section>
+  <div class="columns">
+    <div class="container clearfix">
+      <section class="forms">
+        <form action="#" method="post">
+          <div class="price">
+            <h3>Стоимость:</h3>
+            <div class="price-move">
+              <div class="move-scale">
+                <div class="move-bar">
+                  <div class="toggle toggle-min">
+                  </div>
+                  <div class="toggle toggle-max">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="price-control">
+              <label class="min-price">ОТ
+                <input type="text" name="min-price" value="0">
+              </label><!--
+           --><label class="max-price">ДО
+                <input type="text" name="max-price" value="15000">
+              </label>
+            </div>
+          </div>
+          <div class="net">
+            <h3>Сетка:</h3>
+            <input type="radio" name="net" value="Адаптивная" id="adaptive" checked>
+            <label for="adaptive">
+              Адаптивная
+            </label>
+            <input type="radio" name="net" value="Фиксированная" id="fixed">
+            <label for="fixed">
+              Фиксированная
+            </label>
+            <input type="radio" name="net" value="Резиновая" id="rubber">
+            <label for="rubber">
+              Резиновая
+            </label>
+          </div>
+          <div class="features">
+            <h3>Особенности:</h3>
+            <input type="checkbox" name="slider" id="slider" checked disabled>
+            <label for="slider">
+              Слайдер
+            </label>
+            <input type="checkbox" name="benefit" id="benefit">
+            <label for="benefit">
+              Блок преимуществ
+            </label>
+            <input type="checkbox" name="news" id="news" checked>
+            <label for="news">
+              Новости
+            </label>
+            <input type="checkbox" name="gallery" id="gallery">
+            <label for="gallery">
+              Галерея
+            </label>
+            <input type="checkbox" name="cart" id="cart">
+            <label for="cart">
+              Корзина
+            </label>
+          </div>
+          <input type="submit" value="Показать">
+        </form>
+      </section>
+      <section class="design">
+        <div class="clearfix">
+          <div class="breadcrumbs">
+            <ul>
+              <li>СОРТИРОВАТЬ:</li><!--
+              --><li><a href="#">ПО ЦЕНЕ</a>
+              </li> <!--
+              --><li><a href="#">ПО ТИПУ</a>
+              </li><!--
+               --><li><a href="#">ПО ФУНКЦИОНАЛУ</a>
+              </li> <!--
+            --> </ul>
+          </div>
+          <div class="alter">
+            <ul>
+              <li><a href="#"><i class="active fa fa-caret-down"></i></a>
+              </li><!--
+              --><li><a href="#"><i class="fa fa-caret-up"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="layouts">
+          <div class="layout">
+            <img src="img/picture-aviator.jpg" width="240" height="240" alt="Aviator">
+            <div class="item aviator">
+              <h3>AVIATOR</h3>
+              <p>Одностраничный макет
+                <br/> с авторским дизайном</p>
+              <div class="btn">
+                <a href="#">8000 Р.</a>
+              </div>
+            </div>
+          </div><!--
+          --><div class="layout">
+            <img src="img/picture-sunset.jpg" width="240" height="240" alt="Sunset">
+            <div class="item sunset">
+              <h3>SUNSET</h3>
+              <p>Интернет магазин
+                <br/> с личным кабинетом</p>
+              <div class="btn">
+                <a href="#">10000 Р.</a>
+              </div>
+            </div>
+          </div> <!--
+          --><div class="layout">
+            <img src="img/picture-forte.jpg" width="240" height="240" alt="Forte">
+            <div class="item forte">
+              <h3>FORTE</h3>
+              <p>Отличный макет
+                <br/> для личного блога</p>
+              <div class="btn">
+                <a href="#">5000 Р. </a>
+              </div>
+            </div>
+          </div><!--
+          --><div class="layout">
+            <img src="img/picture-modern.jpg" width="240" height="240" alt="Modern">
+            <div class="item modern">
+              <h3>MODERN ORGANIC<br/>THAI</h3>
+              <p>Сайт для ресторана
+                <br/> быстрого питания</p>
+              <div class="btn">
+                <a href="#">12000 Р.</a>
+              </div>
+            </div>
+          </div><!--
+            --><div class="layout">
+            <img src="img/picture-avenue.jpg" width="240" height="240" alt="Avenue">
+            <div class="item avenue">
+              <h3>AVENUE</h3>
+              <p>Макет для блога
+                <br/> о путешествиях</p>
+              <div class="btn">
+                <a href="#">8000 Р.</a>
+              </div>
+            </div>
+          </div><!--
+           --><div class="layout">
+            <img src="img/picture-dovetail.jpg" width="240" height="240" alt="Davetail">
+            <div class="item davetail">
+              <h3>DAVETAIL</h3>
+              <p>Интернет магазин
+                <br/> с галереей товаров</p>
+              <div class="btn">
+                <a href="#">14000 Р.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="paginator">
+          <a href="#">1</a><!--
+	        --><a href="#">2</a><!--
+	        --><a href="#">3</a><!--
+	        --><a href="#">СЛЕДУЮЩАЯ</a>
+        </div>
+      </section>
+    </div>
+  </div>
+  <section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.96548923285!2d30.319769728769398!3d59.93875687948612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1446223620193" allowfullscreen></iframe>
+    <div class="contacts">
+      <div class="contact-inform">
+        <h4>Nerds design studio</h4>
+        <p>191186, Санкт-Петербург,
+          <br/> ул. Б. Конюшенная, д. 19/8</p>
+        <p>тел. +7 (812) 275-75-75</p>
+        <div class="btn">
+          <a class="form-submission" href="#">НАПИШИТЕ НАМ</a>
+        </div>
+      </div>
+      <div class="contacts-form">
+        <a class="contacts-form-close" href="#"><i class="fa fa-times-circle"></i></a>
+        <form action="#" method="post">
+          <div class="clearfix">
+            <div class="name">
+              <label> Ваше имя:
+                <input type="text" name="name" placeholder="Представьтесь пожалуйста">
+              </label>
+            </div>
+            <div class="e-mail">
+              <label> Ваш e-mail:
+                <input type="text" name="e-mail" placeholder="Для отправки ответа">
+              </label>
+            </div>
+          </div>
+          <label> Текст письма:
+            <input type="text" name="wriht" placeholder="В свободной форме">
+          </label>
+          <input type="submit" value="Отправить">
+          <input type="submit" value="Отмена">
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="container clearfix">
+      <div class="social-btn">
+        <a href="#"><i class="fa fa-vk"></i></a><!--
+		    --><a href="#"><i class="fa fa-facebook"></i></a><!--
+		    --><a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+      <div class="friend">
+        <h2>Давайте дружить, это выгодно!</h2>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Гостиницы</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+<div class="container">
+
+
+<header class="main-header">
+<nav class="main-navigation">
+<div class="main-menu">
+<a href="index.html">Информация</a><!--
+--><a href="#">Фото и видео</a><!--
+--><a href="index.html"></a><!--
+--><a href="#">Карта штата</a><!--
+--><a href="catalog.html" class="active">Гостиницы</a>
+<div class="logo">
+<a href="index.html"><img src="img/logo.png" alt="Логотип"></a>
+</div>
+</div>
+</nav>
+</header>
+
+
+
+<form class="form-sort-hotel clearfix">
+<div class="infrastructure-and-type-hotel">
+<div class="infrastructure">
+<h2>Инфраструктура:</h2>
+<input type="checkbox" name="pool" id="pool" checked>
+<label for="pool">Бассейн</label>
+<input type="checkbox" name="parking" id="parking" disabled>
+<label for="parking">Парковка</label>
+<input type="checkbox" name="wi-fi" id="wi-fi">
+<label for="wi-fi">Wi-fi</label>
+</div>
+<div class="sort-type-hotel">
+<h2 >Тип жилья:</h2>
+<input type="checkbox" name="house" id="house" checked>
+<label for="house">Гостиница</label>
+<input type="checkbox" name="hotel" id="hotel" checked>
+<label for="hotel">Мотель</label>
+<input type="checkbox" name="apartament" id="apartament" checked disabled>
+<label for="apartament">Апартаменты</label>
+</div>
+</div>
+<div class="price">
+<h2>Стоимость в сутки&nbsp; (р):</h2>
+<div class="price-counter">
+<a class="price-min" href="#">от 0</a> 
+<a class="price-max" href="#">до 3000</a>
+</div>
+<div class="toggle-scale">
+
+<div class="toggle min-toggle"></div>
+<div class="toggle max-toggle"></div>
+</div>
+<a class="btn btn-price" href="#">Показать</a>
+
+
+
+</div>
+</form>
+
+
+<section class="breadcrumbs clearfix">
+<div class="sort">
+<h1 class="find">Найдено:&nbsp; 3</h1>
+<ul>
+<li>Сортировка:</li><!--
+--><li><a class="active" href="#">По цене</a>
+</li> <!--
+--><li><a href="#">По типу</a>
+</li><!--
+--><li><a href="#">По рейтингу</a>
+</li>
+</ul>
+</div>
+<ul class="arrow">
+ <li><a href="#"><i class="fa fa-caret-down active"></i></a>
+</li><!--
+--><li><a href="#"><i class="fa fa-caret-up"></i></a>
+</li>
+ </ul>
+</section>
+
+
+<section class="list-of-hotels">
+
+<article class="item-list-of-hotels clearfix">
+<div class="content-list-of-hotels">
+<img src="img/amara.jpg" alt="Гостиница Амара" width="135" height="90">
+<h1 class="name-hotel">Amara resort &&nbsp; spa</h1>
+<p>Гостиница <span>от 3500 р.</span></p>
+<a href="" class="btn details">Подробнее</a>
+<a href="" class="btn reservation">Забронировать</a>
+</div>
+<div class="rating-list-of-hotels">
+<p>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+
+</p>
+<p>
+<span>Рейтинг: 8,5</span>
+</p>
+
+</div>
+</article>
+<article class="item-list-of-hotels clearfix">
+<div class="content-list-of-hotels">
+<img src="img/desert.jpg" alt="Отель Десерт" width="135" height="90">
+<h1 class="name-hotel">Desert quail&nbsp; inn</h1>
+<p>Мотель <span>от 2000 р.</span></p>
+<a href="" class="btn details">Подробнее</a>
+<a href="" class="btn reservation">Забронировать</a>
+</div>
+<div class="rating-list-of-hotels">
+<p>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</p>
+<p>
+<span>Рейтинг: 8,9</span>
+</p>
+</div>
+</article>
+<article class="item-list-of-hotels clearfix">
+<div class="content-list-of-hotels">
+<img src="img/villas.jpg" alt="Апартаменты Виллас" width="135" height="90">
+<h1 class="name-hotel">Villas at poco&nbsp; diablo</h1>
+<p>Апартаменты <span>от 4000 р.</span></p>
+<a href="" class="btn details">Подробнее</a>
+<a href="" class="btn reservation">Забронировать</a>
+</div>
+<div class="rating-list-of-hotels">
+<p>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</p>
+<p>
+<span>Рейтинг: 9,2</span>
+</p>
+</div>
+</article>
+
+</section>
+
+<footer class="main-footer clearfix">
+<div class="visit">
+<a href="#">#Visitsedona</a>
+</div>
+<div class="social-btn">
+<a href="#"><i class="fa fa-twitter"></i></a><!--
+--><a href="#"><i class="fa fa-facebook"></i></a><!--
+--><a href="#"><i class="fa fa-youtube-play"></i></a>
+</div>
+
+<div class="academy">
+<a href="index.html">
+<div>WEBSITE BY</div>
+<div class="academy-img"></div>
+</a>
+</div>
+</footer>
+
+
+</div>
+</body>
