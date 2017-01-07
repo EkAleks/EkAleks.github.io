@@ -2,14 +2,13 @@ body{
 	padding:0;
     margin:0;
 	background-color:#ffffff;}
-	
-
-@media screen and (min-width: 630px){	
-   .container{
+.container{
 	margin:0 auto;
 	padding-left:5%;
 	padding-right:5%;
-	}
+	}	
+
+@media screen and (min-width: 630px){	
 	.logo{
 	float:left;
 	width:45%;
@@ -61,11 +60,6 @@ body{
 
 	
 @media screen and (max-width: 630px) {
-	.container{
-	margin:0 auto;
-	padding-left:5%;
-	padding-right:5%;
-	}
 	.logo{	
 	text-align:left;
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
@@ -97,7 +91,8 @@ body{
 	    padding-right:5%;
 	}
     .main-menu{	
-	
+	padding-left:5%;
+    padding-right:5%;
 	text-align:justify;
 	padding-top:20px;
 	padding-bottom:80px;
@@ -235,8 +230,7 @@ background-size:20%;
 }
 .bio-name .bio-social-btn{
 	position:absolute;
-	left:50px;
-	bottom:-230%;
+	top:110px;
 	
 }
 .bio-name .fa-github{
@@ -245,8 +239,20 @@ background-size:20%;
 	color:#ffffff;
 	margin-right:40px;
 }
+.bio-name .fa-github:after{
+	content:" Github";
+	font-size:20px;
+	font-weight:normal;
+	color:#ffffff;
+}
 .bio-name .fa-skype{
 	font-size:3em;
+	font-weight:normal;
+	color:#ffffff;
+}
+.bio-name .fa-skype:after{
+	content:" Skype";
+	font-size:20px;
 	font-weight:normal;
 	color:#ffffff;
 }
@@ -278,11 +284,12 @@ background-size:20%;
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 	font-size:0.9em;
 	font-weight:700;
-	padding-top:30px;
-	padding-bottom:120px;
+	padding-top:70px;
+	padding-bottom:40px;
 	padding-left:5%;
 	padding-right:5%;
 	text-align:justify;
+	
 }
 .underline-white{
 	height:1px;
@@ -304,52 +311,6 @@ background-size:20%;
 	margin-left:40px;
 	position:relative;
 }
-
-.bio-skill:nth-child(2){
-	background-image:linear-gradient(to right, #2c2c2c 80%, #ca7777 20%);
-}
-.bio-skill:nth-child(3){
-	background-image:linear-gradient(to right, #2c2c2c 80%, #ca7777 20%);
-}
-.bio-skill:nth-child(4){
-	background-image:linear-gradient(to left, #ca7777 70%, #2c2c2c 30%);
-}
-.bio-skill:nth-child(5){
-	background-image:linear-gradient(to left, #ca7777 80%, #2c2c2c 20%);
-	
-}
-
-
-
-.bio-skill-html:before{	
-	content:"Html";
-	position:absolute;
-	left:-40px;
-	top:-14px;	
-}
-.bio-skill-css:before{
-	content:"Css";
-	position:absolute;
-	left:-40px;
-	top:-14px;	
-}
-.bio-skill-ps:before{
-	content:"Ps";
-	position:absolute;
-	left:-40px;
-	top:-14px;	
-}
-.bio-skill-github:before{
-	content:"Git";
-	position:absolute;
-	left:-40px;
-	top:-14px;	
-}
-
-.main-footer{
-    height:40px;
-    background-color:#282828;
-	}
 }	
 @media screen and (min-width: 630px){ 	
 .bio{
@@ -362,25 +323,32 @@ background-size:20%;
     padding-bottom:40px;
 	
 }
-.bio-name{
-	position:relative;
-	padding-top:10px;
-	padding-bottom:10px;
-}
+.bio-name{position:relative;}
 .bio-name .bio-social-btn{
 	position:absolute;
-	top:20px;
-	left:50%;
+	top:110px;
+	
 }
 .bio-name .fa-github{
 	font-size:3em;
-	margin-right:10px;
+	font-weight:normal;
+	color:#ffffff;
+	margin-right:40px;
+}
+.bio-name .fa-github:after{
+	content:" Github";
+	font-size:20px;
 	font-weight:normal;
 	color:#ffffff;
 }
 .bio-name .fa-skype{
 	font-size:3em;
-	margin-right:10px;
+	font-weight:normal;
+	color:#ffffff;
+}
+.bio-name .fa-skype:after{
+	content:" Skype";
+	font-size:20px;
 	font-weight:normal;
 	color:#ffffff;
 }
@@ -414,8 +382,8 @@ background-size:20%;
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 	font-size:14px;
 	font-weight:700;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-top:80px;
+	padding-bottom:40px;
 	text-align:justify;
 	
 	
@@ -437,7 +405,12 @@ background-size:20%;
 	margin-top:15px;
 	margin-left:40px;
 	position:relative;
+
+	
+	}
+
 }
+
 
 .bio-skill:nth-child(2){
 	background-image:linear-gradient(to right, #2c2c2c 80%, #ca7777 20%);
@@ -483,4 +456,3 @@ background-size:20%;
     height:40px;
     background-color:#282828;
 	}
-}
