@@ -3,6 +3,7 @@ body{
     margin:0;
 	background-color:#ffffff;}
 .container{
+	
 	margin:0 auto;
 	padding-left:5%;
 	padding-right:5%;
@@ -335,6 +336,7 @@ background-size:20%;
 	color:#ffffff;
 	margin-right:40px;
 }
+.bio-name .fa-github:hover{color:#2c2c2c;}
 .bio-name .fa-github:after{
 	content:" Github";
 	font-size:20px;
@@ -352,6 +354,7 @@ background-size:20%;
 	font-weight:normal;
 	color:#ffffff;
 }
+.bio-name .fa-skype:hover{color:#2c2c2c;}
 .bio-name img{
 	width:123px;
 	height:123px;
@@ -374,7 +377,8 @@ background-size:20%;
 	color:#2c2c2c;
 	text-decoration:none;
 }
-.bio a:hover{text-decoration:underline;}
+.bio a:hover{
+	text-decoration:underline;}
 
 .bio-text{
 	width:70%;
@@ -388,6 +392,9 @@ background-size:20%;
 	
 	
 }
+.bio-text p{
+	margin-top:0;
+	margin-bottom:0;}
 .bio-skills{
 	width:25%;
 	float:right;
@@ -410,8 +417,35 @@ background-size:20%;
 	}
 
 }
-
-
+.popap-certificate {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 30px;
+    left: 50%;
+	margin-left:-20%;
+    width:40%;
+    height:490px;
+    background:url("../img/HTMLAcademy-16605.jpeg") no-repeat 0% 0%;
+	background-size:100%;
+   
+}
+.popap-certificate-show {
+    display: block;
+}
+.popap-certificate .popap-close {
+    font-family: "FontAwesome";
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 28px;
+    line-height: 28px;
+    color: #2c2c2c;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    background-color: transparent;
+}
+.popap-certificate .popap-close:hover{color: #d45e5e;;}
 .bio-skill:nth-child(2){
 	background-image:linear-gradient(to right, #2c2c2c 80%, #ca7777 20%);
 }
