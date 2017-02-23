@@ -3,7 +3,6 @@ body{
     margin:0;
 	background-color:#ffffff;}
 .container{
-	
 	margin:0 auto;
 	padding-left:5%;
 	padding-right:5%;
@@ -19,7 +18,7 @@ body{
 	font-weight:400;
 	color:#404040;
 	}
-	.logo p{
+	.logo .logo_subtitle{
 		font-family: "Open Sans Condensed", "Arial", sans-serif;
 	font-size:18px;
 	font-weight:400;
@@ -31,8 +30,8 @@ body{
 	content:"";
 	display:block;
 	clear:both;	
-}
-    .main-menu{
+    }
+    .menu{
 	float:right;
 	width:55%;
 	text-align:right;
@@ -42,7 +41,7 @@ body{
 	text-transform:uppercase;
 	
 	}
-	.main-menu a{
+	.menu .menu_item{
 	display:inline-block;
 	vertical-align:top;	
 	padding-top:50px;
@@ -51,14 +50,9 @@ body{
 	padding-left:11px;
 	text-decoration:none;
 	color:#404040;
-}
+   }
 
-}
-
-
-
-
-
+  } 
 	
 @media screen and (max-width: 630px) {
 	.logo{	
@@ -70,15 +64,15 @@ body{
      padding-left:5%;
 	padding-right:5%;
 	}
-	.logo p{
+	.logo .logo_subtitle{
 		font-family: "Open Sans Condensed", "Arial", sans-serif;
 	font-size:18px;
 	font-weight:400;
 	color:#404040;
 	margin:0;
-	padding-bottom:25px;
+	padding-bottom:27px;
 	}
-	.underline-grey{
+	.underline_grey{
 		background:#cfcfcf;
 		height:1px;
 	}
@@ -87,15 +81,15 @@ body{
 	padding-left:0;
 	padding-right:0;
 	}
-	.main-navigation{
+	.navigation{
 		padding-left:5%;
 	    padding-right:5%;
 	}
-    .main-menu{	
+    .menu{	
 	padding-left:5%;
     padding-right:5%;
 	text-align:justify;
-	padding-top:20px;
+	padding-top:16px;
 	padding-bottom:80px;
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 	font-size:23.5px;
@@ -103,7 +97,7 @@ body{
 	text-transform:uppercase;
 	}
 	
-	.main-menu a{
+	.menu .menu_item{
 	display:inline-block;
     vertical-align:top;
 	padding-top:15px;
@@ -114,7 +108,7 @@ body{
 	text-decoration:none;
 	color:#404040;
 }
-.main-menu:after{
+    .menu:after{
 	content:"";
 	display:inline-block;
 	width:100%;
@@ -123,34 +117,29 @@ body{
 
 }
     
-.main-menu .active{
+   .menu .menu_item_active{
 	background-color:#d45e5e;
 	color:#ffffff;
 }
-.contacts{
+    .contacts{
 	padding-top:200px;
 	padding-bottom:25px;
     text-align:center;
 	background:
 	url("../img/comma.png")no-repeat 50% 55%,
-	url("../img/contacts-art.png") no-repeat 0% 100%;
+	url("../img/contacts-art.svg") no-repeat 0% 100%;
 	background-size:5%,95%;
 	
 	}
-	.contacts a{
-		color:#2c2c2c;
-	}
-	.contacts a:hover{
-		color:#bb5e5e;
-	}
-.contacts p{
+	
+.contacts .contacts_content{
 	font-family: 'Noto Serif', serif;
 	font-size:18px;
 	font-weight:400;
 	margin:0;
 	padding-bottom:20px;
 	}	
-.gallery{
+   .gallery{
 	text-align:center;
 	padding-top:100px; 
 	padding-bottom:100px;
@@ -158,7 +147,7 @@ body{
 
 
 @media screen and (min-width: 630px){
-	.gallery-item{
+	.gallery_item{
 	display:inline-block;
 	vertical-align:top;
 	width:200px;
@@ -171,7 +160,7 @@ body{
 }
 }
 @media screen and (max-width: 630px){
-	.gallery-item{
+	.gallery_item{
 	display:inline-block;
 	vertical-align:top;
 	width:200px;
@@ -183,28 +172,28 @@ body{
 	margin-left:33px;
 }
 }
-.gallery  a:nth-child(1) .gallery-item{
+.gallery  .gallery_link:nth-child(1) .gallery_item{
 	background:url("../img/nerds1.jpg") no-repeat 30% 0%;
 	background-size:150%;
 }
-.gallery  a:nth-child(2) .gallery-item{
+.gallery  .gallery_link:nth-child(2) .gallery_item{
 	background:url("../img/nerds-katalog2.png") no-repeat 70% 40%;
 	background-size:230%;
 }
-.gallery  a:nth-child(3) .gallery-item{
+.gallery  .gallery_link:nth-child(3) .gallery_item{
 	background:url("../img/sedona-768.jpg") no-repeat 50% 0%;
 	background-size:150%;
 }
-.gallery  a:nth-child(4) .gallery-item{
+.gallery  .gallery_link:nth-child(4) .gallery_item{
 	background:url("../img/sedona-index-768.jpg") no-repeat 50% 10%;
 	background-size:150%;
 }	
 
-.gallery-item:nth-child(5){
+.gallery_item:nth-child(5){
  background-image:radial-gradient(#2c2c2c, #ffffff);
  }	
 	
-.gallery-item:nth-child(6){
+.gallery_item:nth-child(6){
 background-image: radial-gradient(#bb5e5e, #ffffff);
 background-size:20%;
  background-repeat:repeat;
@@ -222,42 +211,42 @@ background-size:20%;
 	padding-bottom:40px;
 	
 }
-.bio-name{
+.bio_name{
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-left:5%;
 	padding-right:5%;
 	position:relative;
 }
-.bio-name .bio-social-btn{
+.bio_name .bio_social-btn{
 	position:absolute;
 	top:110px;
 	
 }
-.bio-name .fa-github{
+.bio_name .fa-github{
 	font-size:3em;
 	font-weight:normal;
 	color:#ffffff;
 	margin-right:40px;
 }
-.bio-name .fa-github:after{
+.bio_name .fa-github:after{
 	content:" Github";
 	font-size:20px;
 	font-weight:normal;
 	color:#ffffff;
 }
-.bio-name .fa-skype{
+.bio_name .fa-skype{
 	font-size:3em;
 	font-weight:normal;
 	color:#ffffff;
 }
-.bio-name .fa-skype:after{
+.bio_name .fa-skype:after{
 	content:" Skype";
 	font-size:20px;
 	font-weight:normal;
 	color:#ffffff;
 }
-.bio-name img{
+.bio_name .bio_img{
 	width:123px;
 	height:123px;
 	border:solid 8px #ffffff;
@@ -265,23 +254,23 @@ background-size:20%;
 	margin-right:20px;
 	float:left;
 }
-.bio-name h3{
+.bio_name h3{
 	font-family: 'Noto Serif', serif;
 	font-weight:400;
 	color:#ffffff;
 	margin-top:0;
 	margin-bottom:5px;
 }
-.bio-name p{
+.bio_name p{
 	margin-top:0;
 	margin-bottom:0;}
-.bio a{
+.bio .bio_link{
 	color:#2c2c2c;
 	text-decoration:none;
 }
-.bio a:hover{text-decoration:underline;}
+.bio .bio_link:hover{text-decoration:underline;}
 
-.bio-text{
+.bio_text{
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 	font-size:0.9em;
 	font-weight:700;
@@ -292,17 +281,17 @@ background-size:20%;
 	text-align:justify;
 	
 }
-.underline-white{
+.underline_white{
 	height:1px;
 	background:#ffffff;
 }
-.bio-skills{
+.bio_skills{
 	padding-top:30px;
 	padding-bottom:15px;
 	padding-left:5%;
 	padding-right:5%;
 	}
-.bio-skill{
+.bio_skills_item{
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 	font-size:22px;
 	font-weight:400;
@@ -324,38 +313,38 @@ background-size:20%;
     padding-bottom:40px;
 	
 }
-.bio-name{position:relative;}
-.bio-name .bio-social-btn{
+.bio_name{position:relative;}
+.bio_name .bio-social-btn{
 	position:absolute;
 	top:110px;
 	
 }
-.bio-name .fa-github{
+.bio_name .fa-github{
 	font-size:3em;
 	font-weight:normal;
 	color:#ffffff;
 	margin-right:40px;
 }
-.bio-name .fa-github:hover{color:#2c2c2c;}
-.bio-name .fa-github:after{
+.bio_name .fa-github:hover{color:#2c2c2c;}
+.bio_name .fa-github:after{
 	content:" Github";
 	font-size:20px;
 	font-weight:normal;
 	color:#ffffff;
 }
-.bio-name .fa-skype{
+.bio_name .fa-skype{
 	font-size:3em;
 	font-weight:normal;
 	color:#ffffff;
 }
-.bio-name .fa-skype:after{
+.bio_name .fa-skype:after{
 	content:" Skype";
 	font-size:20px;
 	font-weight:normal;
 	color:#ffffff;
 }
-.bio-name .fa-skype:hover{color:#2c2c2c;}
-.bio-name img{
+.bio_name .fa-skype:hover{color:#2c2c2c;}
+.bio_name .bio_img{
 	width:123px;
 	height:123px;
 	border:solid 8px #ffffff;
@@ -363,24 +352,24 @@ background-size:20%;
 	margin-right:20px;
 	float:left;
 }
-.bio-name h3{
+.bio_name h3{
 	font-family: 'Noto Serif', serif;
 	font-weight:400;
 	color:#ffffff;
 	margin-top:0;
 	margin-bottom:5px;
 }
-.bio-name p{
+.bio_name p{
 	margin-top:0;
 	margin-bottom:0;}
-.bio a{
+.bio .bio_link{
 	color:#2c2c2c;
 	text-decoration:none;
 }
-.bio a:hover{
+.bio .bio_link:hover{
 	text-decoration:underline;}
 
-.bio-text{
+.bio_text{
 	width:70%;
 	float:left;
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
@@ -392,10 +381,10 @@ background-size:20%;
 	
 	
 }
-.bio-text p{
+.bio_text p{
 	margin-top:0;
 	margin-bottom:0;}
-.bio-skills{
+.bio_skills{
 	width:25%;
 	float:right;
 	padding-bottom:15px;
@@ -403,7 +392,7 @@ background-size:20%;
 	
 	
 	}
-.bio-skill{
+.bio_skills_item{
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 	font-size:22px;
 	font-weight:400;
@@ -430,10 +419,10 @@ background-size:20%;
 	background-size:100%;
    
 }
-.popap-certificate-show {
+.popap-certificate_show {
     display: block;
 }
-.popap-certificate .popap-close {
+.popap-certificate .popap-certificate_close {
     font-family: "FontAwesome";
     padding-top: 0px;
     padding-bottom: 0px;
@@ -445,42 +434,42 @@ background-size:20%;
     right: -25px;
     background-color: transparent;
 }
-.popap-certificate .popap-close:hover{color: #d45e5e;;}
-.bio-skill:nth-child(2){
+.popap-certificate .popap-certificate_close:hover{color: #d45e5e;;}
+.bio_skills_item:nth-child(2){
 	background-image:linear-gradient(to right, #2c2c2c 80%, #ca7777 20%);
 }
-.bio-skill:nth-child(3){
+.bio_skills_item:nth-child(3){
 	background-image:linear-gradient(to right, #2c2c2c 80%, #ca7777 20%);
 }
-.bio-skill:nth-child(4){
+.bio_skills_item:nth-child(4){
 	background-image:linear-gradient(to left, #ca7777 70%, #2c2c2c 30%);
 }
-.bio-skill:nth-child(5){
+.bio_skills_item:nth-child(5){
 	background-image:linear-gradient(to left, #ca7777 80%, #2c2c2c 20%);
 	
 }
 
 
 
-.bio-skill-html:before{	
+.bio_skills_item_html:before{	
 	content:"Html";
 	position:absolute;
 	left:-40px;
 	top:-14px;	
 }
-.bio-skill-css:before{
+.bio_skills_item_css:before{
 	content:"Css";
 	position:absolute;
 	left:-40px;
 	top:-14px;	
 }
-.bio-skill-ps:before{
+.bio_skills_item_ps:before{
 	content:"Ps";
 	position:absolute;
 	left:-40px;
 	top:-14px;	
 }
-.bio-skill-github:before{
+.bio_skills_item_github:before{
 	content:"Git";
 	position:absolute;
 	left:-40px;
