@@ -314,7 +314,7 @@ background-size:20%;
 	
 }
 .bio_name{position:relative;}
-.bio_name .bio-social-btn{
+.bio_name .bio_social-btn{
 	position:absolute;
 	top:110px;
 	
