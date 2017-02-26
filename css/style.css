@@ -2,14 +2,14 @@
 body{
 	padding:0;
     margin:0;
-	background-color:#ffffff;}
+	background-color:#c0c0c0;}
 .container{
 	min-width:300px;
 	max-width:880px;
 	margin:0 auto;
 	padding-left:5%;
 	padding-right:5%;
-	background-color:#c0c0c0;
+	background-color:#ffffff;
 	}	
 
 @media screen and (min-width: 630px){	
@@ -131,7 +131,7 @@ body{
     text-align:center;
 	background:
 	url("../img/comma.png")no-repeat 50% 55%,
-	url("../img/contacts-art.svg") no-repeat 0% 100%;
+	url("../img/contacts-art.svg") no-repeat 0% 100% #ffffff;
 	background-size:5%,95%;
 	
 	}
