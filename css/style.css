@@ -4,7 +4,7 @@ body{
     margin:0;
 	background-color:#c0c0c0;}
 .container{
-	min-width:300px;
+	min-width:330px;
 	max-width:880px;
 	margin:0 auto;
 	padding-left:5%;
@@ -488,6 +488,6 @@ background-size:20%;
 	top:-14px;	
 }
 .main-footer{
-    height:40px;
+    min-height:40px;
     background-color:#282828;
 	}
