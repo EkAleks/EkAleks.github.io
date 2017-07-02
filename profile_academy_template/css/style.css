@@ -1,0 +1,30 @@
+.home-page{
+	margin:0;
+	padding:0;
+	width:1600px;
+	background-color:#ecedf1;	
+}
+.container{
+	background-color:transparent;
+	min-width:320px;
+	max-width:1180px;
+	padding:216px;
+	margin:0 auto;	
+}
+.home-header{
+	
+}
+.header-img{
+	height:917px;
+	width:100%;
+	background: url("../img/mountains.png") no-repeat center bottom;
+	background-size:cover;
+	
+}
+
+.home-content{
+ height:1362px;		
+}
+.home-footer{
+height:612px;		
+}
