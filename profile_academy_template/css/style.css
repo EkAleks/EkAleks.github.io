@@ -8,23 +8,225 @@
 	background-color:transparent;
 	min-width:320px;
 	max-width:1180px;
-	padding:216px;
+	padding-left:216px;
+	padding-right:216px;
 	margin:0 auto;	
 }
 .home-header{
 	
 }
+.logo{
+	font-size:30px;
+	font-weight:bold;
+	line-height:1;
+	padding-top:31px;
+	padding-bottom:24px;
+	color:#344d71;
+	width:50%;
+	display:inline-block;
+	vertical-align:middle;
+	text-align:left;
+	}
+.social-btn{
+	width:50%;
+	padding-top:31px;
+	padding-bottom:25px;
+	display:inline-block;
+	vertical-align:middle;
+	text-align:right;
+}
+.linkedin{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:25px;
+	width: 23px;
+    height: 23px;
+    background:url("../img/spritesheet.png") no-repeat -120px -5px;}
+.face{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:25px;
+	width: 22px;
+    height: 22px;
+    background:url("../img/spritesheet.png") no-repeat -23px -5px;}
+.tweet{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:25px;
+	width: 24px;
+    height: 19px;
+    background:url("../img/spritesheet.png") no-repeat -240px -5px;}
+.contacts{	
+	width:100%;
+	background-color:#ffffff;
+	margin-left:210px;
+	text-align:right;
+}	
+.mail{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:43px;
+	font-size:;
+	font-weight:;
+	line-height:1;
+	color:#8b9da5;
+}
+.tel{
+	display:inline-block;
+	vertical-align:middle;
+	width:492px;
+	height:55px;
+	background-color:#344d71;
+	color:#ffffff;
+	text-align:left;
+}
+
+.sprite-phone {
+	display:inline-block;
+	vertical-align:middle;
+    width: 20px;
+    height: 20px;
+    background:url("../img/spritesheet.png") no-repeat -153px -5px;
+	
+}
+.tel span:nth-child(1){
+	width:20px;
+	height:20px;
+	padding:18px;
+	background-color:#de9e20;
+	display:inline-block;
+	vertical-align:middle;
+	}
+.tel span:nth-child(2){
+	font-size:25px;
+	line-height:1;
+	font-weight:bold;
+	vertical-align:middle;
+	margin-left:30px;
+}
 .header-img{
-	height:917px;
+	height:884px;
 	width:100%;
 	background: url("../img/mountains.png") no-repeat center bottom;
 	background-size:cover;
 	
 }
-
-.home-content{
- height:1362px;		
+.home-menu{
+	padding-top:33px;
+	padding-left:248px;
 }
+.menu-item {
+	display:inline-block;
+	vertical-align:top;
+}
+.menu-item a{
+	display:inline-block;
+	vertical-align:top;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.sprite-home{
+	width:15px;
+	height:12px;
+	background:url("../img/spritesheet.png") no-repeat -95px -5px;
+}
+.menu-item .sprite-down{
+		width:13px;
+	height:13px;
+	background:url("../img/spritesheet.png") no-repeat -2.5px 0px;
+	background-color:#3a557c;
+	border-radius:2px;
+	
+}
+.home-content{
+	
+}
+.column-container{
+	background:#ffffff;
+	}
+.column{
+	display:inline-block;
+	vertical-align:top;
+	background:#ffffff;
+	min-height:50px;
+	width:33%;
+}
+.table{
+	width:100%;
+	display:table;
+	
+}
+.table-row{
+	display:table-row;
+	
+
+	}
+	
+.table-cell{
+	display:table-cell;
+	color:#ffffff;
+	padding:5px;
+	}
+.table-cell-text h2{
+	margin-top:0px;
+	margin-bottom:0px;}	
+.table-cell-text p{
+	margin-top:0px;
+	margin-bottom:0px;}	
+.table-cell-search{
+	float:right;
+	width: 24px;
+    height: 24px;
+	background:url("../img/spritesheet.png") no-repeat -206px -5px;
+}
+.table-row:nth-of-type(1) .table-cell:nth-child(1){
+	background:#3a557c;
+	}	
+.table-row:nth-of-type(1) .table-cell:nth-child(2){
+	background:#466289;
+	}	
+.table-row:nth-of-type(1) .table-cell:nth-child(3){
+	background:#253957;
+	}	
+	
+.table-row:nth-of-type(2) .table-cell:nth-child(1){
+	background:#516e96;
+	}	
+.table-row:nth-of-type(2) .table-cell:nth-child(2){
+	background:#4771af;
+	}	
+.table-row:nth-of-type(2) .table-cell:nth-child(3){
+	background:#3a557c;
+	}	
+	
+
 .home-footer{
-height:612px;		
+height:612px;	
+background-color:#344d71;
+}
+.footer-container{
+	min-height:426px;
+	background-color:#253957;	
+}
+.home-footer .column{
+	height:426px;
+	background-color:#253957;
+	color:#ffffff;
+	border-right:1px solid #344d71;
+}
+.home-footer .column:nth-child(3){
+	border-right:none;
+	}
+.home-footer ul{
+	list-style:none;
+	}
+.home-footer a{
+	text-decoration:none;
+	
+}	
+.copyrite-footer{
+	width:100%;
+	min-height:50px;
+	background-color:#344d71;
 }

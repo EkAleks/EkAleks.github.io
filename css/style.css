@@ -205,7 +205,7 @@ body{
  background-image:radial-gradient(#2c2c2c, #ffffff);
  }	
 	
-.gallery_item:nth-child(7){
+.gallery  .gallery_link:nth-child(7) .gallery_item{
 background-image: radial-gradient(#bb5e5e, #ffffff);
 background-size:20%;
  background-repeat:repeat;
