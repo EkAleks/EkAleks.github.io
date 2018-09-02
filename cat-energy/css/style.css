@@ -3450,6 +3450,7 @@
     padding-right: 5px;
     font-size: 14px;
     line-height: 14px;
+	background-color: #ffffff;
   }
   .results__text {
     margin-top: 7px;
@@ -3527,6 +3528,7 @@
     padding-right: 5px;
     font-size: 14px;
     line-height: 14px;
+	background-color: #f2f2f2;
   }
   .results__text {
     margin-top: 60;
