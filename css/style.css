@@ -202,7 +202,8 @@ body{
 }	
 
 .gallery  .gallery_link:nth-child(6) .gallery_item{
- background-image:radial-gradient(#2c2c2c, #ffffff);
+ 	background:url("../img/cat-energy-index.jpg") no-repeat 50% 0%;
+	background-size:150%;
  }	
 	
 .gallery  .gallery_link:nth-child(7) .gallery_item{
