@@ -1,4 +1,6 @@
-    var link = document.querySelector(".popap-certificate-img");
+"use strict"
+
+  var link = document.querySelector(".popap-certificate-img");
 	var popup = document.querySelector(".popap-certificate");
 	var close = document.querySelector(".popap-certificate_close");
    
@@ -11,7 +13,7 @@
       evt.preventDefault();
       popup.classList.remove("popap-certificate_show");
     });
-    document.addEventListener("keydown", function(evt) {
+    document.addEventListener("keydown", function (evt) {
       if (evt.keyCode === 27) {
         popup.classList.remove("popap-certificate_show");
       }
