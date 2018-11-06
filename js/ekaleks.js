@@ -11,7 +11,7 @@
       evt.preventDefault();
       popup.classList.remove("popap-certificate_show");
     });
-    document.addEventListener("keydown", function (evt) {
+    document.addEventListener("keydown", function(evt) {
       if (evt.keyCode === 27) {
         popup.classList.remove("popap-certificate_show");
       }
