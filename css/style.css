@@ -221,7 +221,7 @@ body{
 }
 
 .gallery_link:nth-child(6) .gallery_item:hover::before {
-	font-size: 30px;
+	font-size: 60px;
 }
 
 .gallery  .gallery_link:nth-child(7) .gallery_item{
