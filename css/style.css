@@ -220,7 +220,7 @@ body{
   text-transform: uppercase;
 }
 
-.gallery_link:nth-child(6) .gallery_item::before:hover {
+.gallery_link:nth-child(6) .gallery_item:hover::before {
 	font-size: 30px;
 }
 
