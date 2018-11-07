@@ -213,10 +213,15 @@ body{
   background-color: transparent;
   left: 5px;
   top: 5px;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: red;
   text-transform: uppercase;
+}
+
+.gallery_link:nth-child(6) .gallery_item::before:hover {
+	font-size: 30px;
 }
 
 .gallery  .gallery_link:nth-child(7) .gallery_item{
