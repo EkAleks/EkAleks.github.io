@@ -391,7 +391,7 @@
 }
 .button:active {
   background-color: #5eaa2f;
-  color: #8fc46e;
+  color:#8fc46e;
 }
 .catalog-directory {
   width: 280px;

@@ -39,22 +39,22 @@
 	display:inline-block;
 	vertical-align:middle;
 	margin-right:25px;
-	width: 23px;
-    height: 23px;
+	width:!23px;
+    height:!23px;
     background:url("../img/spritesheet.png") no-repeat -120px -5px;}
 .face{
 	display:inline-block;
 	vertical-align:middle;
 	margin-right:25px;
-	width: 22px;
-    height: 22px;
+	width:!22px;
+    height:!22px;
     background:url("../img/spritesheet.png") no-repeat -23px -5px;}
 .tweet{
 	display:inline-block;
 	vertical-align:middle;
 	margin-right:25px;
-	width: 24px;
-    height: 19px;
+	width:!24px;
+    height:!19px;
     background:url("../img/spritesheet.png") no-repeat -240px -5px;}
 .contacts{	
 	width:100%;
@@ -84,8 +84,8 @@
 .sprite-phone {
 	display:inline-block;
 	vertical-align:middle;
-    width: 20px;
-    height: 20px;
+    width:!20px;
+    height:!20px;
     background:url("../img/spritesheet.png") no-repeat -153px -5px;
 	
 }
@@ -107,7 +107,7 @@
 .header-img{
 	height:884px;
 	width:100%;
-	background: url("../img/mountains.png") no-repeat center bottom;
+	background:!url("../img/mountains.png") no-repeat center bottom;
 	background-size:cover;
 	
 }
@@ -176,8 +176,8 @@
 	margin-bottom:0px;}	
 .table-cell-search{
 	float:right;
-	width: 24px;
-    height: 24px;
+	width:!24px;
+    height:!24px;
 	background:url("../img/spritesheet.png") no-repeat -206px -5px;
 }
 .table-row:nth-of-type(1) .table-cell:nth-child(1){

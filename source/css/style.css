@@ -29,7 +29,7 @@ body {
     color: #404040;
     margin: 0;
   }
-  .clearfix:after {
+  .clearfix::after {
     content: "";
     display: block;
     clear: both;
@@ -107,7 +107,7 @@ body {
     text-decoration: none;
     color: #404040;
   }
-  .menu:after {
+  .menu::after {
     content: "";
     display: inline-block;
     width: 100%;
@@ -122,10 +122,10 @@ body {
   padding-bottom: 25px;
   text-align: center;
   background: url("../img/comma.png") no-repeat 50% 55%, url("../img/contacts-art.svg") no-repeat 0% 100% #ffffff;
-  background-size: 5%,95%;
+  background-size: 5%, 95%;
 }
 .contacts .contacts_content {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-size: 18px;
   font-weight: 400;
   margin: 0;
@@ -216,7 +216,7 @@ body {
 }
 @media screen and (max-width: 630px) {
   .bio {
-    font-family: 'Noto Serif', serif;
+    font-family: "Noto Serif", serif;
     font-size: 0.9em;
     font-weight: 700;
     color: #ffffff;
@@ -243,7 +243,7 @@ body {
     color: #ffffff;
     margin-right: 40px;
   }
-  .bio_name .fa-github:after {
+  .bio_name .fa-github::after {
     content: " Github";
     font-size: 20px;
     font-weight: normal;
@@ -254,7 +254,7 @@ body {
     font-weight: normal;
     color: #ffffff;
   }
-  .bio_name .fa-skype:after {
+  .bio_name .fa-skype::after {
     content: " Skype";
     font-size: 20px;
     font-weight: normal;
@@ -269,7 +269,7 @@ body {
     float: left;
   }
   .bio_name h3 {
-    font-family: 'Noto Serif', serif;
+    font-family: "Noto Serif", serif;
     font-weight: 400;
     color: #ffffff;
     margin-top: 0;
@@ -319,7 +319,7 @@ body {
 }
 @media screen and (min-width: 630px) {
   .bio {
-    font-family: 'Noto Serif', serif;
+    font-family: "Noto Serif", serif;
     font-size: 0.9em;
     font-weight: 700;
     color: #ffffff;
@@ -343,7 +343,7 @@ body {
   .bio_name .fa-github:hover {
     color: #2c2c2c;
   }
-  .bio_name .fa-github:after {
+  .bio_name .fa-github::after {
     content: " Github";
     font-size: 20px;
     font-weight: normal;
@@ -354,7 +354,7 @@ body {
     font-weight: normal;
     color: #ffffff;
   }
-  .bio_name .fa-skype:after {
+  .bio_name .fa-skype::after {
     content: " Skype";
     font-size: 20px;
     font-weight: normal;
@@ -372,7 +372,7 @@ body {
     float: left;
   }
   .bio_name h3 {
-    font-family: 'Noto Serif', serif;
+    font-family: "Noto Serif", serif;
     font-weight: 400;
     color: #ffffff;
     margin-top: 0;
@@ -426,19 +426,31 @@ body {
   z-index: 2;
   top: 30px;
   left: 50%;
-  margin-left: -20%;
-  width: 40%;
+  margin-left: -40%;
+  width: 80%;
+  min-height: 490px;
+}
+.popap-certificate_elementary {
+  width: 50%;
+  min-height: 490px;
+  background: url("../img/HTMLAcademy-16605x.jpg") no-repeat 50% 0%;
+  background-size: contain;
+}
+.popap-certificae_adaptive {
+  width: 50%;
   min-height: 490px;
   background: url("../img/HTMLAcademy-16605.jpeg") no-repeat 50% 0%;
   background-size: contain;
 }
 .popap-certificate_show {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .popap-certificate .popap-certificate_close {
   font-family: "FontAwesome";
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
   font-size: 28px;
   line-height: 28px;
   color: #2c2c2c;
@@ -466,25 +478,25 @@ body {
   background-image: -webkit-gradient(linear, right top, left top, color-stop(80%, #ca7777), color-stop(20%, #2c2c2c));
   background-image: linear-gradient(to left, #ca7777 80%, #2c2c2c 20%);
 }
-.bio_skills_item_html:before {
+.bio_skills_item_html::before {
   content: "Html";
   position: absolute;
   left: -40px;
   top: -14px;
 }
-.bio_skills_item_css:before {
+.bio_skills_item_css::before {
   content: "Css";
   position: absolute;
   left: -40px;
   top: -14px;
 }
-.bio_skills_item_ps:before {
+.bio_skills_item_ps::before {
   content: "Ps";
   position: absolute;
   left: -40px;
   top: -14px;
 }
-.bio_skills_item_github:before {
+.bio_skills_item_github::before {
   content: "Git";
   position: absolute;
   left: -40px;
