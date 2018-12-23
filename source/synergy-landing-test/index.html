@@ -20,7 +20,7 @@
             <div class="page-header__contacts contacts">
               <a class="contacts__link-phone" href="tel: 8-800-100-17-46"><i class="contacts__icon contacts__icon--phone"></i>8-800-100-17-46</a>
               <a class="contacts__link-mail" href="mailto: Lectorium@Synergy.ru"><i class="contacts__icon contacts__icon--mail"></i>Lectorium@Synergy.ru</a>
-              <a class="contacts__link-map" href="https://goo.gl/maps/csuE3qkkqa22" target="_blank">
+              <a data-fancybox data-type="iframe" class="contacts__link-map fancybox" href="https://goo.gl/maps/csuE3qkkqa22">
                 <address class="contacts__address">
                   <p class="contacts__address-metro"><i class="contacts__icon contacts__icon--metro"></i> Семеновская</p>
                   <p class="contacts__address-home"> Москва, Измайловский Вал, дом 2, корпус 1</p>
@@ -198,5 +198,14 @@
         });
     });
     </script>
+    <script type="text/javascript">
+    $('.fancybox').fancybox({
+      toolbar  : false,
+      smallBtn : true,
+      iframe : {
+        preload : false
+      }
+    })
+</script>
   </body>
 </html>
