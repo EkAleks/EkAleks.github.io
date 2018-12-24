@@ -117,6 +117,9 @@
   padding-left: 1px;
   padding-right: 1px;
 }
+.contacts:hover {
+  opacity: 0.5;
+}
 .contacts__link-phone {
   text-decoration: none;
   color: #66b045;
@@ -211,6 +214,9 @@
   font-weight: bold;
   font-style: normal;
   line-height: 1;
+}
+.contacts__address-home:hover {
+  color: #542749;
 }
 @media (min-width: 768px) {
   .contacts {
@@ -816,6 +822,7 @@
   padding-bottom: 15px;
   padding-left: 2px;
   padding-right: 2px;
+  position: relative;
 }
 .form__title {
   text-align: center;
@@ -982,7 +989,6 @@
   padding-bottom: 15px;
   list-style: none;
   text-align: right;
-  z-index: -2;
 }
 .form__checkbox-field {
   display: none;
@@ -1258,7 +1264,6 @@
     padding-bottom: 15px;
     list-style: none;
     text-align: right;
-    z-index: -2;
   }
   .form__checkbox-field {
     display: none;
@@ -1533,7 +1538,6 @@
     padding-bottom: 15px;
     list-style: none;
     text-align: right;
-    z-index: -2;
   }
   .form__checkbox-field {
     display: none;
@@ -2200,6 +2204,12 @@
   font-size: 12px;
   line-height: 20px;
   font-weight: 400;
+}
+.page-main__intensive-form {
+  display: none;
+}
+.page-main__form {
+  display: none;
 }
 @media (min-width: 768px) {
   .page-main__information-container {
@@ -3288,6 +3298,38 @@ img {
   margin: 0 auto;
   -webkit-box-shadow: 0 0 10px 10px #c6c3c6;
           box-shadow: 0 0 10px 10px #c6c3c6;
+}
+.fancybox-container .fancybox-content {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.fancybox-container .fancybox-content ul {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.fancybox-container .fancybox-content ul li {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.fancybox-container .fancybox-content ul li input {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.fancybox-container .fancybox-content ul li input + label {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.fancybox-container .fancybox-content div input + label {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.fancybox-container .fancybox-content div {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.fancybox-container .fancybox-content button {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 @font-face {
   font-family: "ProximaNova";
