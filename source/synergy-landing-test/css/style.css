@@ -2997,6 +2997,11 @@ img
     -webkit-box-shadow: 0 0 10px 10px #c6c3c6;
             box-shadow: 0 0 10px 10px #c6c3c6;
 }
+.fancybox-container .fancybox-content
+{
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+}
 .fancybox-container .fancybox-content form
 {
     -webkit-box-sizing: content-box;
