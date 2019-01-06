@@ -2997,6 +2997,11 @@ img
     -webkit-box-shadow: 0 0 10px 10px #c6c3c6;
             box-shadow: 0 0 10px 10px #c6c3c6;
 }
+#modal1
+{
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+}
 #modal
 {
     -webkit-box-sizing: content-box;
