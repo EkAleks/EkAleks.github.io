@@ -224,7 +224,7 @@ body {
   font-family: "Open Sans Condensed", "Arial", sans-serif;
   font-size: 24px;
   font-weight: bold;
-  color: red;
+  color: #d45e5e;
   text-transform: uppercase;
 }
 
@@ -237,16 +237,16 @@ body {
   font-family: "Open Sans Condensed", "Arial", sans-serif;
   font-size: 24px;
   font-weight: bold;
-  color: red;
+  color: #d45e5e;;
   text-transform: uppercase;
 }
 
 .gallery-list__item:nth-child(5) .gallery_link .gallery_item:hover::before {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .gallery-list__item:nth-child(6) .gallery_link .gallery_item:hover::before {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .gallery__code {
@@ -257,6 +257,10 @@ body {
 
 .gallery__code:hover {
  color: #d45e5e;
+}
+
+.gallery_item:hover {
+  box-shadow: 0 0 0 1px #d45e5e;
 }
 
 @media screen and (max-width: 630px) {
