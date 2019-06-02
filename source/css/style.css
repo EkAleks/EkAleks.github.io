@@ -249,6 +249,12 @@ body {
   font-size: 40px;
 }
 
+.gallery-list:nth-of-type(2) .gallery-list__item:nth-child(1) .gallery_link .gallery_item {
+  position: relative;
+  background: url("../img/doingsdone-index.png") no-repeat 0% 50%;
+background-size: 100%;}
+
+
 .gallery__code {
   font-family: "Open Sans Condensed", "Arial", sans-serif;
  text-decoration: none;
