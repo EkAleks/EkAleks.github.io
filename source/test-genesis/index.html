@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Тестовое задание для Генезис</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body class="page-body">
+<div class="page-body__container">
+
+<div class="catalog">
+  <h1 class="catalog__title">
+    Каталог
+  </h1>
+  <ul class="catalog__list">
+    <li class="catalog__item">
+      <img class="catalog__image" src="img/catalog-image.png">
+      <p class="catalog__text">
+        СМИ сообщают, что в Индии был замечен новый внедорожник Chevrolet Trailblazer.
+      </p>
+    </li>
+    <li class="catalog__item">
+      <img class="catalog__image" src="img/catalog-image.png">
+      <p class="catalog__text">
+        Официальные дилеры немецкого автоконцерна "Audi" в России начали приём заказов на 5-местный хетчбэк RS 3 Sportback.
+      </p>
+    </li>
+    <li class="catalog__item">
+      <img class="catalog__image" src="img/catalog-image.png">
+      <p class="catalog__text">Datsun наращивает продажи в России</p>
+    </li>
+    <li class="catalog__item">
+      <img class="catalog__image" src="img/catalog-image.png">
+      <p class="catalog__text">В России может появиться дизельный Hyundai ix25</p>
+    </li>
+    <li class="catalog__item">
+      <img class="catalog__image" src="img/catalog-image.png">
+      <p class="catalog__text">Lamborghini не хочет выпускать бюджетный спорткар за 200 000 долларов</p>
+    </li>
+  </ul>
+</div>
+
+<div class="menu">
+  <h1 class="menu__title">
+    Меню
+  </h1>
+    <ul class="menu__list">
+      <li class="menu__item">
+        <a class="menu__link" href="#">Главная</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">
+          Каталог</a>
+              <ul class="menu__submenu submenu__list">
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">ТВ и Видео</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Компьютерная<br>техника</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Фото и видео<br>техника</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Телефоны</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Портативная техника</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Аудиотехника</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Автотехника</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Техника для дома</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Техника для кухни</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Встраиваемая<br>техника </a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Красота и здоровье</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="submenu__link" href="#">Игры и приставки</a>
+                </li>
+                <li class="submenu__item">
+                  <img class="submenu__image" src="img/submenu-image.jpg">
+                </li>
+              </ul>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">О компании</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Контакты</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#"></a>
+      </li>
+    </ul>
+</div>
+
+<div class="form">
+  <h1 class="form__title">
+    Форма
+  </h1>
+<form class="form__wrapper" method="post" action="#">
+  <div class="form__wrapper-select">
+  <select class="form__select">
+    <option selected="">Ваш пол</option>
+    <option>М</option>
+    <option>Ж</option>
+  </select>
+</div>
+  <div class="form__wrapper-radio">
+    <ul class="form__list-radio">
+      <li class="form__item-radio">
+        <input class="form__field-radio" type="radio" name="radio" value="one" id="one">
+        <label class="form__label-radio" for="one"></label>
+      </li>
+      <li class="form__item-radio">
+        <input class="form__field-radio" type="radio" name="radio" value="two" id="two">
+        <label class="form__label-radio" for="two"></label>
+      </li>
+      <li class="form__item-radio">
+        <input class="form__field-radio" type="radio" name="radio" value="three" id="three" checked="">
+        <label class="form__label-radio" for="three"></label>
+      </li>
+    </ul>
+  </div>
+  <div class="form__wrapper-checkbox">
+    <ul class="form__list-checkbox">
+      <li class="form__item-checkbox">
+        <input class="form__field-checkbox" type="checkbox" name="one-check" id="one-check">
+        <label class="form__label-checkbox" for="one-check" title="первый чекбокс"></label>
+      </li>
+      <li class="form__item-checkbox">
+        <input class="form__field-checkbox" type="checkbox" name="two-check" id="two-check">
+        <label class="form__label-checkbox" for="two-check" title="второй чекбокс"></label>
+      </li>
+      <li class="form__item-checkbox">
+        <input class="form__field-checkbox" type="checkbox" name="three-check" id="three-check" checked="">
+        <label class="form__label-checkbox" for="three-check" title="третий чекбокс"></label>
+      </li>
+      <li class="form__item-checkbox">
+        Отметьте что-нибудь
+      </li>
+    </ul>
+  </div>
+    <button class="form__button">Кнопка</button>
+</form>
+</div>
+
+<div class="slider">
+  <h1 class="slider__title">
+    Слайдер
+  </h1>
+    <div class="slider__wrapper">
+      <div class="slider__slides">
+      <input class="slider__field" type="radio" id="btn-1" name="toggle" checked="">
+      <input class="slider__field" type="radio" id="btn-2" name="toggle">
+      <input class="slider__field" type="radio" id="btn-3" name="toggle">
+      <input class="slider__field" type="radio" id="btn-4" name="toggle">
+      <div class="slider__controls">
+        <label class="slider__label" for="btn-1"></label>
+        <label class="slider__label" for="btn-2"></label>
+        <label class="slider__label" for="btn-3"></label>
+        <label class="slider__label" for="btn-4"></label>
+      </div>
+        <div class="slider__slide" id="slide1"></div>
+        <div class="slider__slide" id="slide2"></div>
+        <div class="slider__slide" id="slide3"></div>
+        <div class="slider__slide" id="slide4"></div>
+      </div>
+        <ul class="slider__list">
+          <li class="slider__item">В Индии был замечен новый Chevrolet Trailblazer</li>
+          <li class="slider__item">Datsun наращивает продажи в России</li>
+          <li class="slider__item">Ford Kuga ожидает премиальная модификация Vignale</li>
+          <li class="slider__item">Объём продаж Audi по всему миру вырос на 6%</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
