@@ -215,6 +215,18 @@ body {
   background-size: 250%;
 }
 
+.gallery-list__item:nth-child(7) .gallery_link .gallery_item {
+  position: relative;
+  background: url("../img/genezis.jpg") no-repeat 0% 100%;
+  background-size: 250%;
+}
+
+.gallery-list__item:nth-child(8) .gallery_link .gallery_item {
+  position: relative;
+  background: url("../img/lenoma1.jpg") no-repeat 100% 0%;
+  background-size: 250%;
+}
+
 .gallery-list__item:nth-child(5) .gallery_link .gallery_item::before {
   content: "New";
   position: absolute;
@@ -241,11 +253,45 @@ body {
   text-transform: uppercase;
 }
 
+.gallery-list__item:nth-child(7) .gallery_link .gallery_item::before {
+  content: "New";
+  position: absolute;
+  background-color: transparent;
+  left: 5px;
+  top: 5px;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #d45e5e;;
+  text-transform: uppercase;
+}
+
+.gallery-list__item:nth-child(8) .gallery_link .gallery_item::before {
+  content: "New";
+  position: absolute;
+  background-color: transparent;
+  left: 5px;
+  top: 5px;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #d45e5e;;
+  text-transform: uppercase;
+}
+
 .gallery-list__item:nth-child(5) .gallery_link .gallery_item:hover::before {
   font-size: 40px;
 }
 
 .gallery-list__item:nth-child(6) .gallery_link .gallery_item:hover::before {
+  font-size: 40px;
+}
+
+.gallery-list__item:nth-child(7) .gallery_link .gallery_item:hover::before {
+  font-size: 40px;
+}
+
+.gallery-list__item:nth-child(8) .gallery_link .gallery_item:hover::before {
   font-size: 40px;
 }
 
